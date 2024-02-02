@@ -1,15 +1,15 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name                    = "freelancer-theme-jekyll"
+  spec.name                    = "diem"
   spec.version                 = "1.0.1"
   spec.authors                 = ["Start Bootstrap"]
 
-  spec.summary                 = %q{Freelancer is a one page Bootstrap portfolio theme for freelancers.}
-  spec.homepage                = "https://github.com/jeromelachaud/freelancer-theme"
-  spec.licenses                = ["MIT"]
+  spec.summary                 = %q{chào tới web của diem.}
+  spec.homepage                = "https://github.com/Komorebikd/diem.come"
+  spec.licenses                = ["hello world"]
 
-  spec.metadata["plugin_type"] = "theme"
+  spec.metadata["plugin_type"] = "diem"
 
   spec.files                   = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^(assets|_(includes|layouts|posts)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
